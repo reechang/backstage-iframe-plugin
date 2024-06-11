@@ -1,8 +1,7 @@
-import React from 'react';
-import { IframeComponent } from './IframeComponent';
-import { IframeContentProps } from './types';
+import React from "react";
+import { IframeComponent } from "./IframeComponent";
+import { IframeContentProps } from "./types";
 
-// export const IframePage: React.FC = () => {
 export const IframePage = (props: IframeContentProps) => {
   const { iframe } = props;
   return (
